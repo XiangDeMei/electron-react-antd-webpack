@@ -1,0 +1,35 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "./src/main/index.js",
+  "scripts": {
+    "dev": "electron . & webpack-dev-server"
+  },
+  "keywords": [
+    "Electron",
+    "react",
+    "ant design",
+    "webpack"
+  ],
+  "author": "GitHub",
+  "license": "MIT",
+  "devDependencies": {
+    "antd": "^3.0.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-import": "^1.6.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "electron": "^1.7.9",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
